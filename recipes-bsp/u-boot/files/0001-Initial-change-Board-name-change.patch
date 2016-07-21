@@ -1,0 +1,25 @@
+From eb828002775a303280b14f5c63966c0c2cef7796 Mon Sep 17 00:00:00 2001
+From: Paul Hottell <paul.hottell@gmail.com>
+Date: Thu, 21 Jul 2016 11:34:41 -0700
+Subject: [PATCH] Initial change: Board name change
+
+---
+ board/freescale/mx6sabresd/mx6sabresd.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/board/freescale/mx6sabresd/mx6sabresd.c b/board/freescale/mx6sabresd/mx6sabresd.c
+index 716e2d7..639eb89 100644
+--- a/board/freescale/mx6sabresd/mx6sabresd.c
++++ b/board/freescale/mx6sabresd/mx6sabresd.c
+@@ -1188,7 +1188,7 @@ int board_late_init(void)
+ 
+ int checkboard(void)
+ {
+-	puts("Board: MX6-SabreSD\n");
++	puts("Board: MX6-ROC\n");
+ 	return 0;
+ }
+ 
+-- 
+1.9.1
+
